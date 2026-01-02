@@ -13,6 +13,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners(com.api.listeners.TestListener.class)
+
 public class UserManagementTest {
 
     @Test(description = "Verify user is able too get profile")
